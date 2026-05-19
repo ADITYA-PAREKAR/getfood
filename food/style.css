@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colorone:#FAF9EE;
+    --colortwo:#A2AF9B;
+    --colorthree:#DCCFC0;
+}
+#al{
+    width: 100%;
+    height: fit-content;
+    border: 2px solid;
+}
+header{
+    height: 50px;
+    width: 99.5vw;
+    /* border: 2px solid; */
+    /* box-shadow: 0 0px 5px gray; */
+    display: flex;
+    justify-content: space-between;
+    font-family: "Libertinus Serif", serif;
+
+    /* padding-top: 5px; */
+    /* border-radius: 5px; */
+}
+.logoCnt{
+   height: inherit;
+   width: 10%;
+    /* background-color: red; */
+   border-radius: 50%;
+}
+.logoCnt img {
+    height: 40px;
+    width: 40px;
+}
+.linksCnt{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.linksCnt ul{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    height: inherit;
+ 
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+.linksCnt a{
+    text-decoration: none;
+    /* color: var(--colortwo); */
+    color: black;
+    font-size: 20px;
+    
+
+}
+.menuCnt{
+    height: inherit;
+    width: 4%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.bannerCnt{
+    height: 400px;
+    width: 100%;
+    background-image: url(./assets/section\(carousal\).jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: var(--colortwo);
+    justify-content:flex-end;
+    padding-right: 10px;
+    align-items: center;
+}
+.bannerCnt button{
+    background-color: darkgreen;
+    border-radius: 5px ;
+    padding: 5px;
+}
+.click{
+    color: var(--colortwo);
+    font-family: serif;
+    /* background-color: darkblue; */
+
+}
+.whyChooseUs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 5px solid;
+    height: fit-content;
+    font-family: cursive;
+    width: 100%;
+    position: relative;
+    /* border: 2px solid red; */
+}
+.wchbox{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid; */
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: rgb(236, 233, 233);
+    text-align: center;
+}
+.wchbox:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 4px slategray;
+}
+.wchbox img{
+    height: 65%;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.menubox{
+    height: 200px;
+    width: 290px;
+    margin-left: 10px;
+    /* border: 2px solid; */
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.menubox img{
+    height: 169px;
+    width: 290px;
+    border-radius: 5px;
+}
+.menubox p{
+    text-align: center;
+    /* margin-top: 5px; */
+    padding-top: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menubox:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 4px slategray;
+
+}
+.menubox a {
+    text-decoration: none;
+    height: 200px;
+    width: 290px;
+    color: black;
+    font-size: medium;
+    /* color: var(--colortwo); */
+    
+}
+.menubox h3{
+    text-align: center;
+}
+#dnp{
+    margin-left: 30px;
+}
+.del_pay{
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* border: 2px solid; */
+}
+.d_p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 300px;
+    width: 40%;
+    /* border: 2px solid; */
+    text-align: left;
+}
+.d_p img{
+    height: 90%;
+    width: 80%;
+}
+.d_p button{
+    background-color: crimson;
+    color: #ffff;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 7px 14px;
+}
+.d_p button:hover{
+    background-color: transparent;
+    color: crimson;
+    border: 2px solid;
+    cursor: pointer;
+}
+.gift{
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid; */
+    background-image: radial-gradient(rgb(65, 65, 156), rgb(194, 44, 44));
+    display: flex;
+    justify-content: space-between;
+    
+}
+.giftbox{
+    height: 100%;
+    width: 40%;
+    padding-top: 50px;
+    margin-left: 50px;
+    /* border: 2px solid; */
+}
+.giftbox img{
+    height: 90%;
+    width: 50%;
+    margin-left: 100px;
+}
+.giftbox h1{
+    color: darkblue;
+    text-align: left;
+}
+.giftbox p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: darkblue;
+}
+.giftbox button{
+    background-color:blue;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    /* padding-bottom: 10px; */
+}
+.giftbox button:hover{
+    background-color: transparent;
+    
+    /* color: crimson; */
+    border: 2px solid;
+    cursor: pointer;
+}
+.footer{
+    height: fit-content;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    background-color: black;
+    /* margin-top: 5px; */
+    /* display: flex; */
+}
+.foot{
+    width: 30%;
+    height: 20%;
+    /* margin-left: 85%; */
+    margin-top: 20%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.footmain{
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid blue; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.footicon{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid green; */
+}
+.footicon a{
+    /* width: 100%;
+    height: 100%; */
+    text-decoration: none;
+    color: white;
+
+}
+.footbox{
+    margin-top: 15px;
+    width: 20%;
+    height: 200px;
+    /* border: 2px solid white; */
+    color: white;
+}
+.footbox a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+}
+.chat{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    /* border: 2px solid; */
+    /* margin-left: 95%; */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    /* background-color: red; */
+}
+.chat img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+
+}
+.chat img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px slategray;
+}
+.giftalert{
+    height: 300px;
+    width: 50%;
+    position: fixed;
+    /* background-color: red; */
+    display: none;
+    top: 25%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.giftalert button{
+    margin-left: 58%;
+    margin-top: 15px;
+    width: 10%;
+    padding: 10px 0;
+}
+.giftalert img{
+    height: 80%;
+    margin-left: 50px;
+    width: 60%;
+}
+.form{
+    height: fit-content;
+    width: 500px;
+    /* border: 2px solid; */
+    position: fixed;
+    color: white;
+    background-color: rgb(129, 125, 125);
+    /* display: none; */
+    top: 25%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#chatform{
+    display: none;
+}
+
+@media(max-width:576px){
+    .linksCnt{
+        display: none;
+
+    }
+    .wchbox{
+        width: 90%;
+        margin-bottom: 18px;
+        margin-right: 20px;
+    }
+    .bannerCnt{
+        
+    }
+  
+    .d_p{
+        /* background-color: red; */
+        width: 90%;
+        margin: auto;
+    }
+    .d_p img{
+        width: 100%;
+    }
+    .del_pay .d_p:nth-child(3) {
+        order: 4;
+    }.del_pay .d_p:nth-child(4) {
+        order: 3;
+    }
+    .menu{
+        /* margin: auto; */
+        margin-left: 5px;
+        width: 80%;
+    }
+    .footmain{
+        display:flex ;
+        flex-direction: column;
+    
+    }
+    .gift {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .giftbox {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .giftbox img {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .footmain {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    .footbox {
+        width: 90%;
+    }
+    .foot {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .foot{
+        margin-left: 40%;
+    }
+    .giftalert{
+        width: 90%;
+        margin-top: 90px;
+    }
+    .giftalert button{
+        width: 60px;
+    }
+    #chatform{
+        width: 115%;
+        height: 47%;
+        /* margin: auto; */
+        margin-left: 10px;
+        margin-top: 40%;
+    }
+}
+@media(min-width:577px){
+    .menuCnt{
+        /* display: none; */
+
+    }
+    .linksCnt{
+        /* display: none; */
+    }
+}
+
+@media(min-width:993px){
+    .linksCnt{
+        
+    }
+    .menuCnt{
+        display: none;
+    }
+}
